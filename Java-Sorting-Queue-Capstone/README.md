@@ -60,28 +60,34 @@ java Main
 ## Screenshots
 
 ### Main menu
+The main menu lists all ten options: registration, queue operations, two sorting algorithms, search, display records, and exit.
 ![Main menu](screenshots/main-registration.png)
 
 ### Registering participants and displaying records
+Option 1 registers a participant and adds them to the check-in queue. Option 9 then displays all stored records in a table.
 ![Add and display records](screenshots/add-display-records.png)
 
 ### Queue operations
+Enqueue adds a participant to the end of the queue, peek shows the front participant without removing them, and dequeue processes the front participant.
 ![Enqueue](screenshots/queue-enqueue.png)
 ![Peek](screenshots/queue-peek.png)
 ![Dequeue](screenshots/queue-dequeue.png)
 
 ### FIFO behavior
+The first participant added to the queue is the first one processed, and the queue is empty once everyone has been processed.
 ![FIFO behavior](screenshots/fifo-behavior.png)
 
 ### Bubble Sort
+Records shown before and after sorting by name (A-Z).
 ![Bubble sort](screenshots/bubble-sort.png)
 
 ### Selection Sort
+Records shown before and after sorting by registration date (earliest to latest).
 ![Selection sort](screenshots/selection-sort.png)
 
 ### Input validation
+Entering a participant ID that does not exist is rejected with the message "Participant not found. No one was added to the queue."
 ![Input validation](screenshots/input-validation.png)
-
 
 ## Notes
 - Records exist in memory only while the program is running; they are not saved to a file or database.
