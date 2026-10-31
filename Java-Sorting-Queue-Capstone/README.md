@@ -81,10 +81,7 @@ java Main
 
 ### Input validation
 ![Input validation](screenshots/input-validation.png)
-When screenshots have been captured, embed them in this README using Markdown, for example:
-```markdown
-![Main menu](screenshots/main-menu.png)
-```
+
 
 ## Notes
 - Records exist in memory only while the program is running; they are not saved to a file or database.
