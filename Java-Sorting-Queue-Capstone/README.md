@@ -58,16 +58,29 @@ java Main
 ```
 
 ## Screenshots
-Create screenshots from the actual running application and save them in the `screenshots/` folder. Replace the placeholders below with screenshots from your own run.
 
-- `screenshots/main-menu.png` — Main menu.
-- `screenshots/registration-and-records.png` — Registering a participant and displaying records.
-- `screenshots/queue-operations.png` — Enqueue, peek, display queue, and dequeue.
-- `screenshots/fifo-demo.png` — Show that the first queued participant is processed first.
-- `screenshots/bubble-sort.png` — Records before and after Bubble Sort.
-- `screenshots/selection-sort.png` — Records before and after Selection Sort.
-- `screenshots/input-validation.png` — Invalid menu choice, blank input, or invalid date message.
+### Main menu
+![Main menu](screenshots/main-registration.png)
 
+### Registering participants and displaying records
+![Add and display records](screenshots/add-display-records.png)
+
+### Queue operations
+![Enqueue](screenshots/queue-enqueue.png)
+![Peek](screenshots/queue-peek.png)
+![Dequeue](screenshots/queue-dequeue.png)
+
+### FIFO behavior
+![FIFO behavior](screenshots/fifo-behavior.png)
+
+### Bubble Sort
+![Bubble sort](screenshots/bubble-sort.png)
+
+### Selection Sort
+![Selection sort](screenshots/selection-sort.png)
+
+### Input validation
+![Input validation](screenshots/input-validation.png)
 When screenshots have been captured, embed them in this README using Markdown, for example:
 ```markdown
 ![Main menu](screenshots/main-menu.png)
